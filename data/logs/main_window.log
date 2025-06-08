@@ -1,0 +1,303 @@
+2025-05-23 22:12:30,500 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-05-23 22:12:30,555 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-05-23 22:12:30,556 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-05-23 22:12:31,222 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-05-23 22:12:31,246 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-05-23 22:12:31,250 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-05-23 22:12:31,251 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-05-23 22:12:31,251 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-05-23 22:12:31,252 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-05-23 22:12:31,252 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-05-23 22:12:31,253 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-23 22:12:31,253 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-23 22:12:31,254 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-23 22:12:31,255 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-05-23 22:12:33,718 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-05-23 22:12:33,718 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-05-23 22:12:33,723 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-05-23 22:12:36,647 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-05-26 09:32:02,990 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-05-26 09:32:04,819 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-05-26 09:32:05,939 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEMEDİ (uygulama kapatılırken).
+2025-05-26 09:32:05,959 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-05-26 09:32:06,078 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-05-26 09:32:07,240 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-05-26 09:32:07,241 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-05-26 09:32:07,706 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-05-26 09:32:09,944 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-05-29 12:06:26,829 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-05-29 12:06:30,054 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-05-29 12:06:31,150 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEMEDİ (uygulama kapatılırken).
+2025-05-29 12:06:31,182 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-05-29 12:06:31,511 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-05-29 12:06:32,980 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-05-29 12:06:32,981 - main_window - INFO     - MainWindow kapatılıyor. Sinyal bağlantıları kesiliyor...
+2025-05-29 12:06:32,989 - main_window - INFO     - Veritabanı bağlantısı kapatılıyor...
+2025-05-29 12:06:33,029 - main_window - INFO     - Uygulama kapatma işlemi kabul edildi.
+2025-05-29 12:06:52,568 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-05-29 12:06:52,969 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-05-29 12:06:52,986 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-05-29 12:06:54,422 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-05-29 12:06:54,467 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-05-29 12:06:54,481 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-05-29 12:06:54,481 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-05-29 12:06:54,482 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-05-29 12:06:54,483 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-05-29 12:06:54,485 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-05-29 12:06:54,486 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-29 12:06:54,487 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-29 12:06:54,489 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-29 12:06:54,489 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-05-29 12:06:57,808 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-05-29 12:06:57,809 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-05-29 12:06:57,824 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-05-29 12:06:59,961 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-05-30 10:43:01,127 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-05-30 10:43:02,319 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-05-30 10:43:03,474 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEMEDİ (uygulama kapatılırken).
+2025-05-30 10:43:03,506 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-05-30 10:43:04,394 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-05-30 10:43:05,699 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-05-30 10:43:05,700 - main_window - INFO     - MainWindow kapatılıyor. Sinyal bağlantıları kesiliyor...
+2025-05-30 10:43:05,706 - main_window - INFO     - Veritabanı bağlantısı kapatılıyor...
+2025-05-30 10:43:05,740 - main_window - INFO     - Uygulama kapatma işlemi kabul edildi.
+2025-05-30 10:43:32,520 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-05-30 10:43:32,702 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-05-30 10:43:32,710 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-05-30 10:43:33,785 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-05-30 10:43:33,835 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-05-30 10:43:33,841 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-05-30 10:43:33,842 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-05-30 10:43:33,842 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-05-30 10:43:33,843 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-05-30 10:43:33,844 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-05-30 10:43:33,845 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 10:43:33,849 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-30 10:43:33,851 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 10:43:33,852 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-05-30 10:43:38,450 - main_window - INFO     - Kullanıcı yönetimi penceresi (UserManagementDialog) açılıyor...
+2025-05-30 10:44:06,618 - main_window - INFO     - Kullanıcı yönetimi penceresi kapatıldı (Sonuç: 0). Kullanıcı listesi yenileniyor.
+2025-05-30 10:44:06,620 - main_window - INFO     - DashboardWidget için aktif kullanıcı None olarak ayarlandı (geçerli seçim yok).
+2025-05-30 10:44:06,621 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 10:44:06,623 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-30 10:44:06,623 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 10:44:10,019 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-05-30 10:44:10,019 - main_window - INFO     - MainWindow kapatılıyor. Sinyal bağlantıları kesiliyor...
+2025-05-30 10:44:10,021 - main_window - INFO     - Veritabanı bağlantısı kapatılıyor...
+2025-05-30 10:44:10,026 - main_window - INFO     - Uygulama kapatma işlemi kabul edildi.
+2025-05-30 10:44:21,314 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-05-30 10:44:21,410 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-05-30 10:44:21,420 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-05-30 10:44:22,497 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-05-30 10:44:22,522 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-05-30 10:44:22,526 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-05-30 10:44:22,528 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-05-30 10:44:22,534 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-05-30 10:44:22,535 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-05-30 10:44:22,536 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-05-30 10:44:22,536 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 10:44:22,537 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-30 10:44:22,538 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 10:44:22,539 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-05-30 10:44:31,063 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-05-30 10:44:31,064 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-05-30 10:44:31,095 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-05-30 10:44:33,700 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-05-30 13:10:19,477 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-05-30 13:10:21,123 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-05-30 13:10:22,011 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEDİ (uygulama kapatılırken).
+2025-05-30 13:10:22,050 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-05-30 13:10:22,316 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-05-30 13:10:25,185 - main_window - INFO     - Kullanıcı yönetimi penceresi (UserManagementDialog) açılıyor...
+2025-05-30 13:10:54,649 - main_window - INFO     - Kullanıcı yönetimi penceresi kapatıldı (Sonuç: 0). Kullanıcı listesi yenileniyor.
+2025-05-30 13:10:54,653 - main_window - INFO     - DashboardWidget için aktif kullanıcı None olarak ayarlandı (geçerli seçim yok).
+2025-05-30 13:10:54,653 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 13:10:54,655 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-30 13:10:54,657 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 13:10:55,757 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-05-30 13:10:55,758 - main_window - INFO     - MainWindow kapatılıyor. Sinyal bağlantıları kesiliyor...
+2025-05-30 13:10:55,764 - main_window - INFO     - Veritabanı bağlantısı kapatılıyor...
+2025-05-30 13:10:55,786 - main_window - INFO     - Uygulama kapatma işlemi kabul edildi.
+2025-05-30 13:11:33,221 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-05-30 13:11:33,415 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-05-30 13:11:33,434 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-05-30 13:11:34,300 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-05-30 13:11:34,339 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-05-30 13:11:34,346 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-05-30 13:11:34,348 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-05-30 13:11:34,349 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-05-30 13:11:34,350 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-05-30 13:11:34,350 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-05-30 13:11:34,351 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 13:11:34,352 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-05-30 13:11:34,353 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-05-30 13:11:34,354 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-05-30 13:11:39,119 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-05-30 13:11:39,120 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-05-30 13:11:39,147 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-05-30 13:11:41,587 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-06-03 15:12:13,933 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-06-03 15:12:14,118 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-06-03 15:12:14,131 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-06-03 15:12:15,024 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-06-03 15:12:15,071 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-06-03 15:12:15,079 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-06-03 15:12:15,079 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-06-03 15:12:15,080 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-06-03 15:12:15,081 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-06-03 15:12:15,081 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-06-03 15:12:15,083 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-03 15:12:15,085 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-06-03 15:12:15,086 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-03 15:12:15,086 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-03 16:48:20,680 - main_window - INFO     - Kullanıcı yönetimi penceresi (UserManagementDialog) açılıyor...
+2025-06-03 16:48:42,993 - main_window - INFO     - Kullanıcı yönetimi penceresi kapatıldı (Sonuç: 0). Kullanıcı listesi yenileniyor.
+2025-06-03 16:48:42,999 - main_window - INFO     - DashboardWidget için aktif kullanıcı None olarak ayarlandı (geçerli seçim yok).
+2025-06-03 16:48:43,006 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-03 16:48:43,007 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-06-03 16:48:43,008 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-03 16:48:45,424 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-06-03 16:48:45,425 - main_window - INFO     - MainWindow kapatılıyor. Sinyal bağlantıları kesiliyor...
+2025-06-03 16:48:45,434 - main_window - INFO     - Veritabanı bağlantısı kapatılıyor...
+2025-06-03 16:48:45,470 - main_window - INFO     - Uygulama kapatma işlemi kabul edildi.
+2025-06-03 16:49:27,215 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-06-03 16:49:27,417 - main_window - INFO     - Ana Pencere (MainWindow) başlatılıyor...
+2025-06-03 16:49:27,505 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-06-03 16:49:28,513 - main_window - INFO     - Gerçek DashboardWidget başarıyla oluşturuldu ve arayüze eklendi.
+2025-06-03 16:49:28,550 - main_window - INFO     - GUI log işleyicisi (QTextEditLogger) başarıyla eklendi (Minimum Seviye: INFO).
+2025-06-03 16:49:28,558 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-06-03 16:49:28,559 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor (Doğrudan BotCore Bağlantıları)...
+2025-06-03 16:49:28,559 - main_window - INFO     - Bağlantı kuruldu: dashboard.forward_generate_report_request -> bot_core.fetch_and_send_report_data
+2025-06-03 16:49:28,560 - main_window - INFO     - Bağlantı kuruldu (lambda ile str): dashboard.request_historical_trades -> bot_core.fetch_and_send_historical_trades
+2025-06-03 16:49:28,560 - main_window - INFO     - Tüm arayüz sinyal ve buton bağlantıları başarıyla kuruldu.
+2025-06-03 16:49:28,561 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-03 16:49:28,562 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-06-03 16:49:28,563 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-03 16:49:28,563 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-03 16:49:31,943 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-06-03 16:49:31,943 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-06-03 16:49:31,978 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-06-03 16:49:34,467 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-06-03 16:52:29,703 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-06-03 16:52:30,813 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-06-03 16:52:32,410 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEMEDİ (uygulama kapatılırken).
+2025-06-03 16:52:32,425 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-06-03 16:52:32,469 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-06-03 16:52:33,431 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-06-03 16:52:33,432 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-06-03 16:52:33,447 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-06-03 16:52:35,405 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-06-04 10:17:37,832 - main_window - INFO     - Kullanıcı yönetimi penceresi (UserManagementDialog) açılıyor...
+2025-06-04 10:18:04,685 - main_window - INFO     - Kullanıcı yönetimi penceresi kapatıldı (Sonuç: 0). Kullanıcı listesi yenileniyor.
+2025-06-04 10:18:04,687 - main_window - INFO     - DashboardWidget için aktif kullanıcı None olarak ayarlandı (geçerli seçim yok).
+2025-06-04 10:18:04,689 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-04 10:18:04,690 - main_window - INFO     - 1 kullanıcı ComboBox'a yüklendi: ibrahim
+2025-06-04 10:18:04,690 - main_window - INFO     - DashboardWidget için aktif kullanıcı 'ibrahim' olarak ayarlandı.
+2025-06-04 13:35:27,366 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-06-04 13:35:28,768 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-06-04 13:35:31,486 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEMEDİ (uygulama kapatılırken).
+2025-06-04 13:35:31,598 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-06-04 13:35:31,865 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-06-04 13:35:32,755 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-06-04 13:35:32,756 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-06-04 13:35:32,811 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-06-04 13:35:34,944 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-06-04 16:30:22,430 - main_window - INFO     - SLOT (_handle_close_position_command_wrapper) çağrıldı: Pozisyon kapatma isteği ID='reconciled_ETHFIUSDT:USDT_sell_1749033334930'
+2025-06-04 16:30:51,616 - main_window - INFO     - SLOT (_handle_close_position_command_wrapper) çağrıldı: Pozisyon kapatma isteği ID='8439308562'
+2025-06-04 16:30:59,981 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-06-04 16:31:01,071 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-06-04 16:31:01,925 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEDİ (uygulama kapatılırken).
+2025-06-04 16:31:01,950 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-06-04 16:31:02,548 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-06-04 16:31:11,426 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-06-04 16:31:11,427 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-06-04 16:31:11,490 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-06-04 16:31:13,930 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-06-04 16:31:19,251 - main_window - INFO     - Kullanıcı 'Botu Durdur' aksiyonunu tetikledi.
+2025-06-04 16:31:20,109 - main_window - INFO     - Bot durdurma komutu onaylandı: Kullanıcı='ibrahim', Mod='real'
+2025-06-04 16:31:21,133 - main_window - INFO     - Kullanıcı açık pozisyonların kapatılmasını İSTEDİ (uygulama kapatılırken).
+2025-06-04 16:31:21,147 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruluyor (ibrahim - Real)...'
+2025-06-04 16:31:21,296 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Durduruldu (Bilinmeyen - Real)'
+2025-06-04 16:31:27,858 - main_window - INFO     - Kullanıcı 'Botu Başlat' aksiyonunu tetikledi.
+2025-06-04 16:31:27,859 - main_window - INFO     - Bot başlatma komutu hazırlanıyor: Kullanıcı='ibrahim', Mod='real'
+2025-06-04 16:31:27,874 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Başlatılıyor (ibrahim - Real)...'
+2025-06-04 16:31:29,796 - main_window - INFO     - SLOT (_on_bot_status_changed) çağrıldı: Durum = 'Çalışıyor (ibrahim - Real)'
+2025-06-04 16:31:37,657 - main_window - INFO     - SLOT (_handle_close_position_command_wrapper) çağrıldı: Pozisyon kapatma isteği ID='reconciled_ETHUSDT:USDT_sell_1749043889783'
+2025-06-04 19:27:15,062 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-06-07 13:17:39,447 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-06-07 13:44:33,152 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-06-07 13:44:44,905 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 13:44:44,915 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-06-07 13:44:45,535 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-06-07 13:44:45,545 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor...
+2025-06-07 13:44:45,546 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-07 13:57:46,996 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-06-07 13:57:57,353 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 13:57:57,358 - main_window - CRITICAL - Yöneticilerin veya BotCore'un başlatılması sırasında kritik hata: 'MainWindow' object has no attribute '_check_license'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 119, in __init__
+    self.license_is_valid = self._check_license()
+AttributeError: 'MainWindow' object has no attribute '_check_license'
+2025-06-07 14:01:05,410 - main_window - INFO     - Çekirdek bileşenler (ConfigManager, UserConfigManager, BotCore, DatabaseManager) başarıyla import edildi.
+2025-06-07 14:01:14,876 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 14:01:14,876 - main_window - CRITICAL - Yöneticilerin veya BotCore'un başlatılması sırasında kritik hata: 'MainWindow' object has no attribute '_check_license'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 119, in __init__
+    self.license_is_valid = self._check_license()
+AttributeError: 'MainWindow' object has no attribute '_check_license'
+2025-06-07 15:34:25,785 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 15:34:25,789 - main_window - INFO     - ConfigManager, UserManager, DBManager ve BotCore başarıyla başlatıldı.
+2025-06-07 15:34:26,087 - main_window - ERROR    - GUI log handler ayarlanırken hata: super-class __init__() of type QTextEditLogger was never called
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 290, in _setup_gui_logging
+    log_handler = QTextEditLogger(self.log_widget_ref)
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 59, in __init__
+    self.log_received.connect(self.widget.append)
+RuntimeError: super-class __init__() of type QTextEditLogger was never called
+2025-06-07 15:34:26,087 - main_window - INFO     - Ana arayüz (UI) ve GUI loglama başarıyla kuruldu.
+2025-06-07 15:34:26,087 - main_window - INFO     - Arayüz sinyalleri ve buton bağlantıları kuruluyor...
+2025-06-07 15:34:26,089 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-07 17:53:11,886 - main_window - INFO     - MainWindow kapatma olayı (closeEvent) tetiklendi.
+2025-06-07 17:53:51,709 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 18:02:16,896 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 18:02:17,018 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-07 18:02:24,465 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 18:02:39,866 - main_window - INFO     - Dil değiştiriliyor: ru
+2025-06-07 18:02:43,954 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 18:02:46,922 - main_window - INFO     - Dil değiştiriliyor: tr
+2025-06-07 18:02:57,170 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 18:03:15,041 - main_window - INFO     - Dil değiştiriliyor: ru
+2025-06-07 19:20:34,386 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 19:25:18,547 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 19:25:18,668 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-07 19:25:23,967 - main_window - INFO     - Dil değiştiriliyor: tr
+2025-06-07 19:25:26,967 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 19:26:45,006 - main_window - INFO     - Dil değiştiriliyor: ru
+2025-06-07 19:46:51,848 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 19:46:52,067 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-07 19:46:58,966 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 19:48:11,190 - main_window - INFO     - Dil değiştiriliyor: ru
+2025-06-07 19:48:16,990 - main_window - INFO     - Dil değiştiriliyor: tr
+2025-06-07 19:48:27,886 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 20:11:34,024 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 20:16:01,856 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-07 20:16:01,958 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-07 20:16:19,277 - main_window - INFO     - Dil değiştiriliyor: ru
+2025-06-07 20:16:25,805 - main_window - INFO     - Dil değiştiriliyor: tr
+2025-06-07 20:16:29,973 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-07 20:16:32,757 - main_window - INFO     - Dil değiştiriliyor: ru
+2025-06-07 20:16:37,132 - main_window - INFO     - Dil değiştiriliyor: tr
+2025-06-07 20:16:40,597 - main_window - INFO     - Dil değiştiriliyor: en
+2025-06-08 13:33:37,501 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-08 13:33:38,100 - main_window - WARNING  - Güncelleme sunucusuna ulaşılamadı: Expecting value: line 7 column 1 (char 6)
+2025-06-08 13:33:38,101 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-08 13:34:05,859 - main_window - INFO     - Dil değiştiriliyor: tr
+2025-06-08 13:34:31,427 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-08 13:34:32,107 - main_window - WARNING  - Güncelleme sunucusuna ulaşılamadı: Expecting value: line 7 column 1 (char 6)
+2025-06-08 13:34:32,108 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-08 13:40:26,170 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-08 13:40:26,420 - main_window - INFO     - Yeni sürüm mevcut: 1.0.1 (Mevcut: 0.0.0)
+2025-06-08 13:40:26,431 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.
+2025-06-08 14:02:58,869 - main_window - INFO     - Ana Pencere (MainWindow) 'ibrahim' kullanıcısı için başlatılıyor...
+2025-06-08 14:02:59,266 - main_window - INFO     - Yeni sürüm mevcut: 1.0.1 (Mevcut: 0.0.0)
+2025-06-08 14:02:59,274 - main_window - INFO     - MainWindow başarıyla başlatıldı ve kullanıma hazır.

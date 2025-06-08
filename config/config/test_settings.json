@@ -1,0 +1,24 @@
+{
+    "exchange": {
+        "name": "binance",
+        "api_key": "TEST_API_KEY",
+        "secret_key": "TEST_SECRET_KEY"
+    },
+    "risk": {
+        "max_open_positions": 10,
+        "max_risk_per_trade_percent": 1.5,
+        "max_daily_loss_percent": 8.0
+    },
+    "signal": {
+        "source": "telegram",
+        "chat_id": "1234567890"
+    },
+    "extra": null,
+    "feature_flags": [
+        "beta_feature",
+        "another_one"
+    ],
+    "trading": {
+        "default_amount_type": "fixed"
+    }
+}

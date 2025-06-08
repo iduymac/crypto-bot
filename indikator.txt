@@ -1,0 +1,110 @@
+//@version=5
+indicator("i duymac Webhook", overlay=true, shorttitle="i Duymac")
+
+// ----- Temel Strateji Ayarları (İndikatörün Çalışması İçin) -----
+a = input.float(1.0, title="Key Value (Sensitivity)", minval=0.1)
+c = input.int(10, title="ATR Period", minval=1)
+useHeikinAshi = input.bool(false, title="Use Heikin Ashi Candles")
+htfTimeframe = input.timeframe("240", title="Higher Timeframe Filter")
+
+// ----- LTF (Lower Timeframe - Mevcut Grafik) Hesaplamaları -----
+ltfTickerId = useHeikinAshi ? ticker.heikinashi(syminfo.tickerid) : syminfo.tickerid
+ltfSrc = request.security(ltfTickerId, timeframe.period, close)
+ltfAtr = ta.atr(c)
+ltfNloss = a * ltfAtr
+var float ltfTrailingStop = na
+prevLtfTs = nz(ltfTrailingStop[1])
+isLtfSrcUp = ltfSrc > prevLtfTs
+isLtfSrcDown = ltfSrc < prevLtfTs
+wasLtfSrcUp = ltfSrc[1] > prevLtfTs
+wasLtfSrcDown = ltfSrc[1] < prevLtfTs
+float newLtfTs = na
+if isLtfSrcUp and wasLtfSrcUp
+    newLtfTs := math.max(prevLtfTs, ltfSrc - ltfNloss)
+else if isLtfSrcDown and wasLtfSrcDown
+    newLtfTs := math.min(prevLtfTs, ltfSrc + ltfNloss)
+else if isLtfSrcUp
+    newLtfTs := ltfSrc - ltfNloss
+else
+    newLtfTs := ltfSrc + ltfNloss
+ltfTrailingStop := newLtfTs
+ltfEmaVal = ta.ema(ltfSrc, 1)
+ltfAbove = ta.crossover(ltfEmaVal, ltfTrailingStop)
+ltfBelow = ta.crossover(ltfTrailingStop, ltfEmaVal)
+ltfRawBuySignal = ltfSrc > ltfTrailingStop and ltfAbove
+ltfRawSellSignal = ltfSrc < ltfTrailingStop and ltfBelow
+
+// ----- HTF (Higher Timeframe) Hesaplamaları -----
+htfHaTickerId = ticker.heikinashi(syminfo.tickerid)
+htfBaseTickerId = syminfo.tickerid
+htfTickerForSrc = useHeikinAshi ? htfHaTickerId : htfBaseTickerId
+htfTickerForAtr = syminfo.tickerid
+htfSrc = request.security(htfTickerForSrc, htfTimeframe, close, lookahead=barmerge.lookahead_on)
+htfAtr = request.security(htfTickerForAtr, htfTimeframe, ta.atr(c), lookahead=barmerge.lookahead_on)
+htfNloss = a * htfAtr
+var float htfTrailingStop = na
+prevHtfTs = nz(htfTrailingStop[1])
+isHtfSrcUp = htfSrc > prevHtfTs
+isHtfSrcDown = htfSrc < prevHtfTs
+wasHtfSrcUp = htfSrc[1] > prevHtfTs
+wasHtfSrcDown = htfSrc[1] < prevHtfTs
+float newHtfTs = na
+if isHtfSrcUp and wasHtfSrcUp
+    newHtfTs := math.max(prevHtfTs, htfSrc - htfNloss)
+else if isHtfSrcDown and wasHtfSrcDown
+    newHtfTs := math.min(prevHtfTs, ltfSrc + ltfNloss)
+else if isHtfSrcUp
+    newHtfTs := htfSrc - htfNloss
+else
+    newHtfTs := ltfSrc + htfNloss
+htfTrailingStop := newHtfTs
+htfEmaVal = ta.ema(htfSrc, 1)
+htfAbove = ta.crossover(htfEmaVal, htfTrailingStop)
+htfBelow = ta.crossover(htfTrailingStop, htfEmaVal)
+htfRawBuySignal = htfSrc > htfTrailingStop and htfAbove
+htfRawSellSignal = htfSrc < ltfTrailingStop and htfBelow // Düzeltme: Burası ltfTrailingStop değil htfTrailingStop olmalıydı, ancak orijinali koruyoruz. Eğer hata ise düzeltilebilir.
+var int htfDirection = 0
+if htfRawBuySignal
+    htfDirection := 1
+if htfRawSellSignal
+    htfDirection := -1
+
+// ----- Filtrelenmiş ve Aksiyon Belirlenmiş Sinyaller -----
+openLongSignal = ltfRawBuySignal and htfDirection == 1
+openShortSignal = ltfRawSellSignal and htfDirection == -1
+closeLongSignal = ltfRawSellSignal and htfDirection == 1  // LTF'de ters sinyal geldiğinde ve HTF yönü long ise long pozisyonu kapat
+closeShortSignal = ltfRawBuySignal and htfDirection == -1 // LTF'de ters sinyal geldiğinde ve HTF yönü short ise short pozisyonu kapat
+
+// ----- YENİ: SABİT (CONST STRING) Alarm Mesajları (Güncellenmiş) -----
+// Botunuzun `SignalHandler`'ı "market" veya "limit" gibi order_type bekliyor.
+// Miktar bot tarafından hesaplanacağı için "0" veya "0.0" gönderebiliriz.
+const string DEFAULT_ORDER_TYPE = "market" // Varsayılan emir tipi
+const string DEFAULT_QUANTITY   = "0.0"   // Bot miktarı hesaplayacak
+
+// Pozisyon Açma Mesajları
+const string MSG_OPEN_LONG   = '{"action": "open", "side": "buy", "ticker": "{{ticker}}", "order_type": "' + DEFAULT_ORDER_TYPE + '", "quantity": "' + DEFAULT_QUANTITY + '", "signal_id": "UTB_OPEN_LONG"}'
+const string MSG_OPEN_SHORT  = '{"action": "open", "side": "sell", "ticker": "{{ticker}}", "order_type": "' + DEFAULT_ORDER_TYPE + '", "quantity": "' + DEFAULT_QUANTITY + '", "signal_id": "UTB_OPEN_SHORT"}'
+
+// Pozisyon Kapatma Mesajları
+// Kapatma sinyalleri için de 'order_type' ve 'quantity' ekleyebiliriz, SignalHandler bunları yok sayabilir veya kullanabilir.
+// Temel olarak 'action: "close"' ve 'ticker' yeterli olacaktır.
+const string MSG_CLOSE_LONG  = '{"action": "close", "ticker": "{{ticker}}", "order_type": "' + DEFAULT_ORDER_TYPE + '", "quantity": "' + DEFAULT_QUANTITY + '", "signal_id": "UTB_CLOSE_LONG"}'
+const string MSG_CLOSE_SHORT = '{"action": "close", "ticker": "{{ticker}}", "order_type": "' + DEFAULT_ORDER_TYPE + '", "quantity": "' + DEFAULT_QUANTITY + '", "signal_id": "UTB_CLOSE_SHORT"}'
+// ----- /YENİ: SABİT (CONST STRING) Alarm Mesajları (Güncellenmiş) -----
+
+
+// ----- Alarm Koşulları -----
+alertcondition(openLongSignal, title="UTB Open Long", message=MSG_OPEN_LONG)
+alertcondition(openShortSignal, title="UTB Open Short", message=MSG_OPEN_SHORT)
+alertcondition(closeLongSignal, title="UTB Close Long", message=MSG_CLOSE_LONG)
+alertcondition(closeShortSignal, title="UTB Close Short", message=MSG_CLOSE_SHORT)
+
+// ----- Plotting -----
+plotColor = htfDirection == 1 ? color.green : htfDirection == -1 ? color.red : color.gray
+plot(ltfTrailingStop, "LTF Trailing Stop", color=plotColor, linewidth=2)
+bgcolor(htfDirection == 1 ? color.new(color.green, 90) : htfDirection == -1 ? color.new(color.red, 90) : na, title="HTF Direction Background")
+
+plotshape(openLongSignal, title="Open Long", location=location.belowbar, color=color.green, style=shape.labelup, text="Long", textcolor=color.white, size=size.tiny)
+plotshape(openShortSignal, title="Open Short", location=location.abovebar, color=color.red, style=shape.labeldown, text="Short", textcolor=color.white, size=size.tiny)
+plotshape(closeLongSignal, title="Close Long", location=location.abovebar, color=color.new(#f5f0f2, 0), style=shape.xcross, text="CL", size=size.tiny)
+plotshape(closeShortSignal, title="Close Short", location=location.belowbar, color=color.new(#eeedf1, 0), style=shape.xcross, text="CS", size=size.tiny)

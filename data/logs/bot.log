@@ -1,0 +1,542 @@
+2025-06-07 13:23:31,188 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:23:31,193 - user_config_manager - WARNING  - 'ibrahim' kullanıcısı için yanlış parola denemesi.
+2025-06-07 13:26:56,679 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:26:56,682 - user_config_manager - WARNING  - 'ibrahim' kullanıcısı için yanlış parola denemesi.
+2025-06-07 13:34:00,452 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:34:00,455 - user_config_manager - WARNING  - 'ibrahim' kullanıcısı için yanlış parola denemesi.
+2025-06-07 13:39:23,632 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:39:23,635 - user_config_manager - WARNING  - 'ibrahim' kullanıcısı için yanlış parola denemesi.
+2025-06-07 13:43:52,200 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:43:52,202 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 13:44:30,822 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 13:44:32,072 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 13:44:32,076 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 13:44:33,154 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 13:44:33,154 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 13:44:33,210 - config_manager - INFO     - Ayar dosyası 'config\settings.json' bulunamadı, varsayılan (boş) ayarlar kullanılacak.
+2025-06-07 13:44:33,210 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:44:33,224 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 13:44:33,224 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 13:44:33,224 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 13:44:33,229 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:44:44,894 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 13:44:44,902 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 13:44:44,915 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 13:44:44,915 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 13:44:44,946 - dashboard_widget - INFO     - Ana DashboardWidget başlatılıyor...
+2025-06-07 13:44:45,476 - dashboard_widget - INFO     - DashboardWidget UI başarıyla oluşturuldu.
+2025-06-07 13:44:46,470 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-07 13:44:46,471 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-07 13:44:46,500 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-07 13:44:46,501 - __main__ - INFO     - Uygulama olay döngüsü başlatılıyor (app.exec_())...
+2025-06-07 13:46:45,005 - user_mgmt_dialog - INFO     - UserManagementDialog başlatıldı.
+2025-06-07 13:46:50,675 - user_mgmt_dialog - INFO     - 'ibrahim' kullanıcısının ayarları düzenleniyor...
+2025-06-07 13:46:50,691 - settings_dialog - INFO     - Demo Modu Ayarları sekmesi 10 sabit parite alanı ile oluşturuldu.
+2025-06-07 13:46:54,438 - user_mgmt_dialog - INFO     - 'ibrahim' için ayar değişikliği iptal edildi.
+2025-06-07 13:57:45,002 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 13:57:46,004 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 13:57:46,010 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 13:57:46,998 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 13:57:46,998 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 13:57:47,053 - config_manager - INFO     - Ayar dosyası 'config\settings.json' bulunamadı, varsayılan (boş) ayarlar kullanılacak.
+2025-06-07 13:57:47,054 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:57:47,063 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 13:57:47,064 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 13:57:47,064 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 13:57:47,069 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 13:57:57,342 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 13:57:57,351 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 13:58:03,694 - __main__ - ERROR    - BotCore nesnesi bulunamadı! Webhook başlatılamıyor.
+2025-06-07 13:58:06,021 - __main__ - INFO     - Uygulama olay döngüsü başlatılıyor (app.exec_())...
+2025-06-07 13:58:09,121 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-07 14:01:04,093 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 14:01:04,791 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 14:01:04,794 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 14:01:05,412 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 14:01:05,412 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 14:01:05,427 - config_manager - INFO     - Ayar dosyası 'config\settings.json' bulunamadı, varsayılan (boş) ayarlar kullanılacak.
+2025-06-07 14:01:05,428 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 14:01:05,430 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 14:01:05,430 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 14:01:05,430 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 14:01:05,431 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 14:01:14,870 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 14:01:14,875 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 15:34:12,408 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 15:34:13,675 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 15:34:13,679 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 15:34:14,980 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 15:34:14,980 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 15:34:15,038 - config_manager - INFO     - Ayar dosyası 'config\settings.json' bulunamadı, varsayılan (boş) ayarlar kullanılacak.
+2025-06-07 15:34:15,039 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 15:34:15,068 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 15:34:15,068 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 15:34:15,068 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 15:34:15,076 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 15:34:25,769 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 15:34:25,773 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 15:34:25,789 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 15:34:25,789 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 15:34:25,807 - dashboard_widget - INFO     - Ana DashboardWidget başlatılıyor...
+2025-06-07 15:34:26,044 - dashboard_widget - INFO     - DashboardWidget UI başarıyla oluşturuldu.
+2025-06-07 15:34:26,492 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-07 15:34:26,492 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-07 15:34:26,518 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-07 15:34:26,519 - __main__ - INFO     - Uygulama olay döngüsü başlatılıyor (app.exec_())...
+2025-06-07 17:53:11,943 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-07 17:53:35,260 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 17:53:36,701 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 17:53:36,705 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 17:53:38,130 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 17:53:38,130 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 17:53:38,182 - config_manager - INFO     - Ayar dosyası 'config\settings.json' bulunamadı, varsayılan (boş) ayarlar kullanılacak.
+2025-06-07 17:53:38,183 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 17:53:38,194 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 17:53:38,195 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 17:53:38,196 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 17:53:38,197 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 17:53:38,225 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 17:53:38,225 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 17:53:38,226 - __main__ - INFO     - Uygulama dili 'tr' olarak ayarlandı.
+2025-06-07 17:53:38,229 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 17:53:51,700 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 17:53:51,703 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 17:53:51,711 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 17:53:51,711 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 17:53:51,719 - dashboard_widget - INFO     - Ana DashboardWidget başlatılıyor...
+2025-06-07 17:53:51,793 - dashboard_widget - INFO     - DashboardWidget UI başarıyla oluşturuldu.
+2025-06-07 17:53:51,825 - __main__ - CRITICAL - Ana uygulama penceresi başlatılırken kritik hata: super-class __init__() of type QTextEditLogger was never called
+Traceback (most recent call last):
+  File "main.py", line 67, in main
+    main_window = MainWindow(
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 100, in __init__
+    self._setup_gui_logging()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 239, in _setup_gui_logging
+    log_handler = QTextEditLogger(self.log_widget_ref)
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 44, in __init__
+    self.log_received.connect(self.widget.append)
+RuntimeError: super-class __init__() of type QTextEditLogger was never called
+2025-06-07 17:54:16,287 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-07 18:02:03,960 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 18:02:05,126 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 18:02:05,131 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 18:02:06,405 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 18:02:06,405 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 18:02:06,564 - config_manager - INFO     - Ayar dosyası 'config\settings.json' bulunamadı, varsayılan (boş) ayarlar kullanılacak.
+2025-06-07 18:02:06,564 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 18:02:06,581 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 18:02:06,582 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 18:02:06,582 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 18:02:06,582 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 18:02:06,583 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 18:02:06,584 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 18:02:06,584 - __main__ - INFO     - Uygulama dili 'tr' olarak ayarlandı.
+2025-06-07 18:02:06,589 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 18:02:16,885 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 18:02:16,893 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 18:02:16,898 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 18:02:16,898 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 18:02:16,906 - dashboard_widget - INFO     - Ana DashboardWidget başlatılıyor...
+2025-06-07 18:02:16,978 - dashboard_widget - INFO     - DashboardWidget UI başarıyla oluşturuldu.
+2025-06-07 18:02:17,457 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-07 18:02:17,457 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-07 18:02:17,480 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-07 18:02:24,488 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 18:02:24,490 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 18:02:39,879 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 18:02:39,880 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 18:02:43,955 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 18:02:43,956 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 18:02:46,923 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 18:02:46,924 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 18:02:57,171 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 18:02:57,172 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 18:03:15,042 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 18:03:15,044 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:20:17,583 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 19:20:18,904 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 19:20:18,910 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 19:20:20,130 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 19:20:20,130 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 19:20:20,192 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:20:20,193 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:20:20,215 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 19:20:20,215 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 19:20:20,215 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 19:20:20,216 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 19:20:20,251 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 19:20:20,253 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 19:20:20,253 - __main__ - INFO     - Uygulama dili 'ru' olarak ayarlandı.
+2025-06-07 19:20:20,259 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:20:34,377 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 19:20:34,384 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 19:20:34,391 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 19:20:34,391 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 19:20:34,417 - __main__ - CRITICAL - Ana uygulama penceresi başlatılırken kritik hata: name 'POS_HEADERS' is not defined
+Traceback (most recent call last):
+  File "main.py", line 67, in main
+    main_window = MainWindow(
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 106, in __init__
+    self._init_ui()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 191, in _init_ui
+    self.dashboard_widget_ref = ImportedDashboardWidget(bot_core_instance=self.bot_core, lang_manager=self.lang_manager, parent=self)
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 181, in __init__
+    self._create_open_positions_log_tab()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 425, in _create_open_positions_log_tab
+    self.positions_table.setColumnCount(len(POS_HEADERS))
+NameError: name 'POS_HEADERS' is not defined
+2025-06-07 19:20:40,347 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-07 19:25:06,025 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 19:25:07,567 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 19:25:07,571 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 19:25:08,692 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 19:25:08,693 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 19:25:08,757 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:25:08,758 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:25:08,774 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 19:25:08,775 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 19:25:08,775 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 19:25:08,776 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 19:25:08,776 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 19:25:08,777 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 19:25:08,777 - __main__ - INFO     - Uygulama dili 'ru' olarak ayarlandı.
+2025-06-07 19:25:08,785 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:25:18,536 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 19:25:18,539 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 19:25:18,549 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 19:25:18,549 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 19:25:18,588 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:25:18,612 - language_manager - WARNING  - 'ru' dilinde 'sl_price' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'tp_price' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'tsl_status' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'tsl_stop' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'status' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'close_time' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'exit_price' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'gross_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'fee' anahtarı bulunamadı.
+2025-06-07 19:25:18,613 - language_manager - WARNING  - 'ru' dilinde 'net_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:18,666 - language_manager - WARNING  - 'ru' dilinde 'sl_price' anahtarı bulunamadı.
+2025-06-07 19:25:18,666 - language_manager - WARNING  - 'ru' dilinde 'tp_price' anahtarı bulunamadı.
+2025-06-07 19:25:18,666 - language_manager - WARNING  - 'ru' dilinde 'tsl_status' anahtarı bulunamadı.
+2025-06-07 19:25:18,666 - language_manager - WARNING  - 'ru' dilinde 'tsl_stop' anahtarı bulunamadı.
+2025-06-07 19:25:18,666 - language_manager - WARNING  - 'ru' dilinde 'status' anahtarı bulunamadı.
+2025-06-07 19:25:18,667 - language_manager - WARNING  - 'ru' dilinde 'close_time' anahtarı bulunamadı.
+2025-06-07 19:25:18,667 - language_manager - WARNING  - 'ru' dilinde 'exit_price' anahtarı bulunamadı.
+2025-06-07 19:25:18,667 - language_manager - WARNING  - 'ru' dilinde 'gross_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:18,667 - language_manager - WARNING  - 'ru' dilinde 'fee' anahtarı bulunamadı.
+2025-06-07 19:25:18,667 - language_manager - WARNING  - 'ru' dilinde 'net_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:19,109 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-07 19:25:19,109 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-07 19:25:19,149 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-07 19:25:23,968 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 19:25:23,969 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:25:23,971 - language_manager - WARNING  - 'tr' dilinde 'sl_price' anahtarı bulunamadı.
+2025-06-07 19:25:23,971 - language_manager - WARNING  - 'tr' dilinde 'tp_price' anahtarı bulunamadı.
+2025-06-07 19:25:23,971 - language_manager - WARNING  - 'tr' dilinde 'tsl_status' anahtarı bulunamadı.
+2025-06-07 19:25:23,972 - language_manager - WARNING  - 'tr' dilinde 'tsl_stop' anahtarı bulunamadı.
+2025-06-07 19:25:23,972 - language_manager - WARNING  - 'tr' dilinde 'status' anahtarı bulunamadı.
+2025-06-07 19:25:23,972 - language_manager - WARNING  - 'tr' dilinde 'close_time' anahtarı bulunamadı.
+2025-06-07 19:25:23,972 - language_manager - WARNING  - 'tr' dilinde 'exit_price' anahtarı bulunamadı.
+2025-06-07 19:25:23,973 - language_manager - WARNING  - 'tr' dilinde 'gross_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:23,973 - language_manager - WARNING  - 'tr' dilinde 'fee' anahtarı bulunamadı.
+2025-06-07 19:25:23,973 - language_manager - WARNING  - 'tr' dilinde 'net_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:26,971 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 19:25:26,972 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:25:26,973 - language_manager - WARNING  - 'en' dilinde 'sl_price' anahtarı bulunamadı.
+2025-06-07 19:25:26,973 - language_manager - WARNING  - 'en' dilinde 'tp_price' anahtarı bulunamadı.
+2025-06-07 19:25:26,974 - language_manager - WARNING  - 'en' dilinde 'tsl_status' anahtarı bulunamadı.
+2025-06-07 19:25:26,974 - language_manager - WARNING  - 'en' dilinde 'tsl_stop' anahtarı bulunamadı.
+2025-06-07 19:25:26,975 - language_manager - WARNING  - 'en' dilinde 'status' anahtarı bulunamadı.
+2025-06-07 19:25:26,975 - language_manager - WARNING  - 'en' dilinde 'close_time' anahtarı bulunamadı.
+2025-06-07 19:25:26,975 - language_manager - WARNING  - 'en' dilinde 'exit_price' anahtarı bulunamadı.
+2025-06-07 19:25:26,975 - language_manager - WARNING  - 'en' dilinde 'gross_pnl' anahtarı bulunamadı.
+2025-06-07 19:25:26,976 - language_manager - WARNING  - 'en' dilinde 'fee' anahtarı bulunamadı.
+2025-06-07 19:25:26,976 - language_manager - WARNING  - 'en' dilinde 'net_pnl' anahtarı bulunamadı.
+2025-06-07 19:26:45,008 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 19:26:45,009 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:26:45,011 - language_manager - WARNING  - 'ru' dilinde 'sl_price' anahtarı bulunamadı.
+2025-06-07 19:26:45,012 - language_manager - WARNING  - 'ru' dilinde 'tp_price' anahtarı bulunamadı.
+2025-06-07 19:26:45,013 - language_manager - WARNING  - 'ru' dilinde 'tsl_status' anahtarı bulunamadı.
+2025-06-07 19:26:45,013 - language_manager - WARNING  - 'ru' dilinde 'tsl_stop' anahtarı bulunamadı.
+2025-06-07 19:26:45,014 - language_manager - WARNING  - 'ru' dilinde 'status' anahtarı bulunamadı.
+2025-06-07 19:26:45,014 - language_manager - WARNING  - 'ru' dilinde 'close_time' anahtarı bulunamadı.
+2025-06-07 19:26:45,015 - language_manager - WARNING  - 'ru' dilinde 'exit_price' anahtarı bulunamadı.
+2025-06-07 19:26:45,015 - language_manager - WARNING  - 'ru' dilinde 'gross_pnl' anahtarı bulunamadı.
+2025-06-07 19:26:45,015 - language_manager - WARNING  - 'ru' dilinde 'fee' anahtarı bulunamadı.
+2025-06-07 19:26:45,016 - language_manager - WARNING  - 'ru' dilinde 'net_pnl' anahtarı bulunamadı.
+2025-06-07 19:46:38,569 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 19:46:39,807 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 19:46:39,811 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 19:46:41,016 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 19:46:41,016 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 19:46:41,086 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:46:41,087 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:46:41,154 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 19:46:41,155 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 19:46:41,155 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 19:46:41,155 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 19:46:41,180 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 19:46:41,190 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 19:46:41,190 - __main__ - INFO     - Uygulama dili 'ru' olarak ayarlandı.
+2025-06-07 19:46:41,196 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 19:46:51,834 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 19:46:51,842 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 19:46:51,850 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 19:46:51,851 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 19:46:51,894 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:46:52,464 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-07 19:46:52,464 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-07 19:46:52,490 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-07 19:46:58,988 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 19:46:58,990 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:47:28,988 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:47:31,630 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:47:33,254 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:47:45,543 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:47:50,766 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:47:51,863 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:47:53,222 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:48:11,190 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 19:48:11,192 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:48:16,991 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 19:48:16,992 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:48:27,886 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 19:48:27,887 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 19:48:44,159 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_open_positions_tab_active = (self._open_positions_tab_ref is not None and index == self.tab_widget.indexOf(self._open_positions_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:54:17,569 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_reports_tab_active = (hasattr(self, '_reports_tab_ref') and self._reports_tab_ref is not None and index == self.tab_widget.indexOf(self._reports_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:54:19,095 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_reports_tab_active = (hasattr(self, '_reports_tab_ref') and self._reports_tab_ref is not None and index == self.tab_widget.indexOf(self._reports_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:54:54,502 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_reports_tab_active = (hasattr(self, '_reports_tab_ref') and self._reports_tab_ref is not None and index == self.tab_widget.indexOf(self._reports_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:55:55,699 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_reports_tab_active = (hasattr(self, '_reports_tab_ref') and self._reports_tab_ref is not None and index == self.tab_widget.indexOf(self._reports_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:57:19,622 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_reports_tab_active = (hasattr(self, '_reports_tab_ref') and self._reports_tab_ref is not None and index == self.tab_widget.indexOf(self._reports_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 19:57:20,118 - dashboard_widget - ERROR    - Sekme değiştirme (_on_tab_changed) hatası: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+Traceback (most recent call last):
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 633, in _on_tab_changed
+    is_reports_tab_active = (hasattr(self, '_reports_tab_ref') and self._reports_tab_ref is not None and index == self.tab_widget.indexOf(self._reports_tab_ref))
+AttributeError: 'DashboardWidget' object has no attribute '_open_positions_tab_ref'
+2025-06-07 20:11:20,225 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 20:11:21,680 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 20:11:21,687 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 20:11:23,285 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 20:11:23,285 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 20:11:23,377 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-07 20:11:23,378 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 20:11:23,408 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 20:11:23,408 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 20:11:23,408 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 20:11:23,408 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 20:11:23,439 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 20:11:23,462 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 20:11:23,462 - __main__ - INFO     - Uygulama dili 'en' olarak ayarlandı.
+2025-06-07 20:11:23,470 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 20:11:34,000 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 20:11:34,017 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 20:11:34,026 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 20:11:34,026 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 20:11:34,074 - __main__ - CRITICAL - Ana uygulama penceresi başlatılırken kritik hata: 'DashboardWidget' object has no attribute 'get_string'
+Traceback (most recent call last):
+  File "main.py", line 67, in main
+    main_window = MainWindow(
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 106, in __init__
+    self._init_ui()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\main_window.py", line 191, in _init_ui
+    self.dashboard_widget_ref = ImportedDashboardWidget(bot_core_instance=self.bot_core, lang_manager=self.lang_manager, parent=self)
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 181, in __init__
+    self._create_reports_tab()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 452, in _create_reports_tab
+    self._reports_tab_ref = ReportsWidget(self)
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 69, in __init__
+    self._init_ui()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 110, in _init_ui
+    self._retranslate_ui()
+  File "C:\Users\duruiletisim\Desktop\crypto_bot_kopya\gui\dashboard_widget.py", line 112, in _retranslate_ui
+    self.date_selection_group.setTitle(self.lang_manager.get_string("reports_date_range"))
+AttributeError: 'DashboardWidget' object has no attribute 'get_string'
+2025-06-07 20:11:43,736 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-07 20:15:45,747 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-07 20:15:46,891 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 20:15:46,895 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-07 20:15:47,972 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-07 20:15:47,972 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-07 20:15:48,029 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-07 20:15:48,030 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 20:15:48,041 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-07 20:15:48,041 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-07 20:15:48,041 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-07 20:15:48,042 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-07 20:15:48,043 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 20:15:48,044 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 20:15:48,044 - __main__ - INFO     - Uygulama dili 'en' olarak ayarlandı.
+2025-06-07 20:15:48,049 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-07 20:16:01,847 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-07 20:16:01,850 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-07 20:16:01,858 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-07 20:16:01,858 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-07 20:16:02,478 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-07 20:16:02,478 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-07 20:16:02,509 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-07 20:16:19,312 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 20:16:19,313 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 20:16:25,805 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 20:16:25,806 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 20:16:29,973 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 20:16:29,974 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 20:16:32,757 - language_manager - INFO     - 'ru' dili başarıyla yüklendi. (config/lang\lang_ru.json)
+2025-06-07 20:16:32,759 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 20:16:37,133 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-07 20:16:37,135 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 20:16:40,597 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-07 20:16:40,598 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-07 21:41:14,650 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-08 13:33:19,935 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-08 13:33:21,265 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 13:33:21,269 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 13:33:24,500 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-08 13:33:24,500 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-08 13:33:24,571 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:33:24,582 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:33:24,601 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-08 13:33:24,601 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-08 13:33:24,601 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-08 13:33:24,603 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-08 13:33:24,613 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 13:33:24,624 - language_manager - INFO     - 'en' dili başarıyla yüklendi. (config/lang\lang_en.json)
+2025-06-08 13:33:24,624 - __main__ - INFO     - Uygulama dili 'en' olarak ayarlandı.
+2025-06-08 13:33:24,631 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:33:37,494 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-08 13:33:37,499 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-08 13:33:37,503 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-08 13:33:37,505 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-08 13:33:38,554 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-08 13:33:38,554 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-08 13:33:38,589 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-08 13:34:05,860 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 13:34:05,862 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasına başarıyla kaydedildi.
+2025-06-08 13:34:18,509 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-08 13:34:22,771 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-08 13:34:23,322 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 13:34:23,326 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 13:34:23,945 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-08 13:34:23,945 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-08 13:34:23,971 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:34:23,972 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:34:23,973 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-08 13:34:23,974 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-08 13:34:23,974 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-08 13:34:23,974 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-08 13:34:23,974 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 13:34:23,975 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 13:34:23,975 - __main__ - INFO     - Uygulama dili 'tr' olarak ayarlandı.
+2025-06-08 13:34:23,976 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:34:31,422 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-08 13:34:31,426 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-08 13:34:31,427 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-08 13:34:31,428 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-08 13:34:32,427 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-08 13:34:32,452 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-08 13:34:32,453 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-08 13:40:17,163 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-08 13:40:17,842 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 13:40:17,845 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 13:40:18,601 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-08 13:40:18,602 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-08 13:40:18,620 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:40:18,622 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:40:18,634 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-08 13:40:18,634 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-08 13:40:18,634 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-08 13:40:18,634 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-08 13:40:18,635 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 13:40:18,635 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 13:40:18,635 - __main__ - INFO     - Uygulama dili 'tr' olarak ayarlandı.
+2025-06-08 13:40:18,636 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 13:40:26,164 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-08 13:40:26,170 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-08 13:40:26,171 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-08 13:40:26,171 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-08 13:40:26,797 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-08 13:40:26,797 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
+2025-06-08 13:40:26,797 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-08 14:02:39,367 - database_manager - INFO     - Veritabanı bağlantısı (data/trades.db) kapatıldı.
+2025-06-08 14:02:50,035 - dashboard_widget - WARNING  - utils modülünde 'format_decimal_auto' fonksiyonu bulunamadı. Sayı formatlama yapılamayacak.
+2025-06-08 14:02:50,830 - risk_manager - INFO     - RiskManager: 'utils' modülünden yardımcı fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 14:02:50,835 - trade_manager - INFO     - utils modülünden fonksiyonlar ve sabitler başarıyla import edildi.
+2025-06-08 14:02:51,836 - __main__ - INFO     - Ana loglayıcı başarıyla ayarlandı.
+2025-06-08 14:02:51,836 - __main__ - INFO     - Uygulama başlatılıyor...
+2025-06-08 14:02:51,882 - config_manager - INFO     - Ayarlar 'config\settings.json' dosyasından başarıyla yüklendi.
+2025-06-08 14:02:51,884 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 14:02:51,885 - database_manager - INFO     - Veritabanına bağlanıldı: data/trades.db (check_same_thread=False ayarlandı)
+2025-06-08 14:02:51,886 - database_manager - INFO     - 'closed_trades' tablosu ve indeksleri başarıyla kontrol edildi/oluşturuldu.
+2025-06-08 14:02:51,886 - database_manager - INFO     - DatabaseManager başlatıldı ve veritabanına bağlandı: data/trades.db
+2025-06-08 14:02:51,886 - language_manager - INFO     - Kullanılabilir diller bulundu: ['en', 'ru', 'tr']
+2025-06-08 14:02:51,887 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 14:02:51,888 - language_manager - INFO     - 'tr' dili başarıyla yüklendi. (config/lang\lang_tr.json)
+2025-06-08 14:02:51,888 - __main__ - INFO     - Uygulama dili 'tr' olarak ayarlandı.
+2025-06-08 14:02:51,888 - user_config_manager - INFO     - Kullanıcı verileri 'data\users.json' dosyasından başarıyla yüklendi.
+2025-06-08 14:02:58,862 - user_config_manager - INFO     - 'ibrahim' kullanıcısı için parola doğrulandı.
+2025-06-08 14:02:58,868 - __main__ - INFO     - 'ibrahim' kullanıcısı başarıyla giriş yaptı.
+2025-06-08 14:02:58,869 - bot_core - INFO     - BotCore başlatılıyor...
+2025-06-08 14:02:58,869 - bot_core - INFO     - BotCore nesnesi başarıyla oluşturuldu.
+2025-06-08 14:02:59,647 - __main__ - INFO     - Webhook listener thread'i başlatıldı (0.0.0.0:5000).
+2025-06-08 14:02:59,675 - webhook_listener - WARNING  - Webhook sunucusu 0.0.0.0:5000 adresinde GÜVENLİK ANAHTARI OLMADAN başlatılıyor...
+2025-06-08 14:02:59,675 - webhook_listener - INFO     - Flask geliştirme sunucusu 0.0.0.0:5000 adresinde başlatılıyor...
